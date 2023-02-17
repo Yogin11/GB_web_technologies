@@ -1,0 +1,113 @@
+
+body {
+    background-color:skyblue;
+    margin: auto;           /* одинаковые отступы */
+    width: 1000px;
+}
+
+h1 {
+    /* position:absolute; */
+    font-family:  cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: chartreuse;
+    margin-left: 100px;
+    text-align: center;
+}
+
+h2,h3 {
+    text-align: center;
+    margin-left: 200px;
+
+}
+
+
+.center {
+    text-align:justify;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    /* mar */
+}
+.centermain {
+
+    text-align:justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* img {
+    position:relative;
+    margin: auto;
+    width: 500px;
+    float:left; /* Обтекание картинки  */
+    /* padding-left: 200px; Отступ слева */
+    /* padding-bottom: 10px; Отступ снизу */
+    /* padding-right: 10px;  Отступ слева */  
+
+.logo {
+    border: 3px solid rgb(25, 216, 15);
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 50px ;
+    object-fit: cover;
+    float:left;
+    
+}
+.minorimgs {
+    margin-left: 200px ;
+    width: 300px;
+    float: left;
+    padding-right: 10px;
+}
+
+.specialimg {
+    margin-left: 200px ;
+    width: 300px;
+    float: left;
+    padding-right: 30px;
+}
+.imgs {
+    position:relative;
+    margin: auto;
+    width: 500px;
+    float:left; /* Обтекание картинки  */
+    padding-left: 200px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+    padding-right: 10px; /* Отступ слева */ 
+    
+}
+
+p {
+    /* font-family: 'Playfair Display', serif; */
+    text-indent: 2%;
+    margin-left: 200px;
+}
+
+.layout {
+    width: 1000px;
+    /* height: 1000px; */
+    position:relative;
+    float: left;
+    background-color: darkcyan;
+    
+}
+.leftsidebar, .rightsidebar {position: absolute;}
+.leftsidebar{ 
+    background-color: rgb(43, 226, 159);
+    height: fit-content;
+    font-style: italic;
+    top: 10px;
+    left: 10px;
+    width: 180px;
+}
+
+.rightsidebar{ 
+    background-color: blueviolet;
+    top: 10px;
+    left: 80px;
+    width: 50px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Playfair+Display:ital@1&display=swap');
